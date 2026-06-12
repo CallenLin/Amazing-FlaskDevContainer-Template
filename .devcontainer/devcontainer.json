@@ -4,8 +4,8 @@
   "customizations": {
     "vscode": {
       "settings": {
-        "editor.formatOnSave": true,
         "files.autoSave": "onFocusChange",
+        "editor.formatOnSave": true,
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "[python]": {
           "editor.defaultFormatter": "charliermarsh.ruff",
