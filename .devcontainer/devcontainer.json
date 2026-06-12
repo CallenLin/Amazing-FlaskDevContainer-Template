@@ -34,5 +34,4 @@
       "onAutoForward": "notify"
     }
   },
-  "postCreateCommand": "pip3 install --user -r requirements.txt"
 }
