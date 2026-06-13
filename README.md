@@ -6,7 +6,6 @@
   <img src="readme-file/readme.jpeg" alt="A image coming soon!" width="700">
 </p>
 
-**<!-- Add your own short description of what it does! -->**
 <p align="center">
   <b>A short decription</b>
 </p>
@@ -19,8 +18,9 @@ A description of what the project does.
 <hr>
 
 ## Quick Start
+List a short description of what this does and the commands needed to run.
 ```
-  code blocks for commands
+code blocks for commands
 ```
 
 <hr>
