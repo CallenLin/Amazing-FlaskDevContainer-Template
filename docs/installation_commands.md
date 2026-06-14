@@ -3,6 +3,8 @@
 > [!IMPORTANT]
 > This is for GitHub Codespaces specifically. For non-codespaces, you will first have to cd to the directory first.
 
+**This may have been built by the codespace prior to this being completed inside the devcontainer.json at line 40!**
+
 ### Creating the Environment for Flask
 
 Step 1: **Create a environment**
