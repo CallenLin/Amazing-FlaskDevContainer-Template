@@ -3,7 +3,7 @@
 ### Don't like the installation before the installation of requirements.txt?
 Remove the following from **.devcontainer/devcontainer.json**
 ```
-  "postCreateCommand": "pip3 install --user -r requirements.txt"
+  "postCreateCommand": "python -m venv .venv && .venv/bin/python -m pip install -r requirements.txt"
 ```
 Find it at line 37 (from the original template).
 
