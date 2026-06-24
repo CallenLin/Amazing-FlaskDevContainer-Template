@@ -1,6 +1,9 @@
 {
   "name": "My amazing Python Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "pip install -r requirements.txt && sudo apt-get clean && rm -rf ~/.cache/pip",
   "customizations": {
     "vscode": {
       "settings": {
